@@ -1,0 +1,29 @@
+{
+  "title": "Buttons",
+  "parameters": {
+    "options": {
+      "disabled": false
+    }
+  },
+  "stories": [
+    {
+      "name": "Default",
+      "parameters": {
+        "server": {
+          "id": "button/default"
+        }
+      }
+    },
+    {
+      "name": "Disabled",
+      "parameters": {
+        "server": {
+          "id": "button/disabled"
+        }
+      },
+      "params": {
+        "disabled": true
+      }
+    }
+  ]
+}
